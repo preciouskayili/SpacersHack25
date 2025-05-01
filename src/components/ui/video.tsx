@@ -78,7 +78,7 @@ export default function VideoPlayer({
           <Button
             variant="secondary"
             size="sm"
-            className="bg-white/90 hover:bg-white text-black absolute left-[15px] bottom-[15px] !pl-2"
+            className="bg-white/90 hover:bg-white text-black absolute left-[15px] bottom-[15px] pl-2!"
           >
             <span className="bg-white rounded-full p-2 flex flex-col items-center justify-center">
               <svg
