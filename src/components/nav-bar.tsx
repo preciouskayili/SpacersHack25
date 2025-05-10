@@ -47,7 +47,7 @@ const NavBar = () => {
           <LogoLarge />
         </Link>
 
-        <ul className="lg:flex flex-row items-center gap-x-5 hidden font-duplicateSans">
+        <ul className="lg:flex flex-row items-center gap-x-5 hidden text-sm uppercase">
           {links.map((link) => (
             <li
               key={link.name}
@@ -60,16 +60,19 @@ const NavBar = () => {
               </Link>
             </li>
           ))}
-        </ul>
-        <Button size={"sm"} className="hidden lg:block">
-          <a
-            href="https://forms.gle/hhuLVupnm2F1AGa96"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Button
+            size={"sm"}
+            className="hidden lg:block uppercase font-normal !px-5 text-sm ml-4"
           >
-            Join the Community
-          </a>
-        </Button>
+            <a
+              href="https://forms.gle/hhuLVupnm2F1AGa96"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              SPONSOR EVENT
+            </a>
+          </Button>
+        </ul>
         <Sheet open={open} onOpenChange={setOpen}>
           <VisuallyHidden.Root>
             <SheetTitle>Menu</SheetTitle>
@@ -105,7 +108,7 @@ const NavBar = () => {
                       <Link
                         href={link.href}
                         className={cn(
-                          "block text-2xl hover:text-primary transition-colors",
+                          "block text-2xl hover:text-primary transition-colors uppercase",
                           pathname.startsWith(link.href)
                             ? "text-primary"
                             : "text-black"
@@ -116,13 +119,13 @@ const NavBar = () => {
                     </div>
                   ))}
                 </nav>
-                <Button size="lg" className="w-full rounded-xl mt-8">
+                <Button size="lg" className="w-full rounded-xl mt-8 uppercase">
                   <a
                     href="https://forms.gle/hhuLVupnm2F1AGa96"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Join the Community
+                    SPONSOR EVENT
                   </a>
                 </Button>
               </div>

@@ -199,12 +199,12 @@ export const brands = [
 ];
 
 export const links = [
-  { name: "About Us", href: "/about-us" },
-  { name: "Donate", href: "/donate" },
-  { name: "Events", href: "/events" },
-  { name: "Gallery", href: "/gallery" },
-  { name: "Blog", href: "/blog" },
-  { name: "Contact us", href: "/contact-us" },
+  { name: "Schedule", href: "/about-us" },
+  { name: "About", href: "/donate" },
+  { name: "Sponsors", href: "/events" },
+  { name: "Speakers", href: "/gallery" },
+  { name: "Partnership", href: "/blog" },
+  { name: "Contact", href: "/contact-us" },
 ];
 
 export const quick_links = [
