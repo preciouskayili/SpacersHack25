@@ -4,7 +4,7 @@ import { Button } from "../ui/button";
 
 export default function EventHighlights() {
   return (
-    <Container className="gap-12 flex items-center mt-24">
+    <Container className="gap-12 flex items-center my-24">
       <div className="flex flex-col gap-12 flex-1">
         <div className="w-full h-96 bg-stone-50 shadow-[0px_0px_20px_4px_rgba(34,34,34,0.03)] border-l-[12px] border-r-[12px] border-t-[12px] border-b-[50px] border-white" />
         <div className="mb-8 w-full h-96 bg-stone-50 shadow-[0px_0px_20px_4px_rgba(34,34,34,0.03)] border-l-[12px] border-r-[12px] border-t-[12px] border-b-[50px] border-white" />
