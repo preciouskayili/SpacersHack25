@@ -131,7 +131,7 @@ export default function ThemeAndActivities() {
           </div>
         </div>
 
-        <div className="mt-12">
+        <div className="mt-16">
           <h5 className="justify-center text-white text-xl font-semibold uppercase leading-loose mb-8">
             Look forward to...
           </h5>
@@ -148,10 +148,8 @@ export default function ThemeAndActivities() {
                     </h1>
                   </div>
 
-                  <p className="max-w-96 w-full text-white">
-                    Our conference covers a range of talks from the web to the
-                    cloud to compilers (and so on) -- we're proud of the
-                    speakers we've put together!
+                  <p className="text-right max-w-96 w-full text-white">
+                    {item.description}
                   </p>
                 </div>
                 <div className="w-full bg-white/20 mt-8 h-px" />
