@@ -2,7 +2,7 @@ import Container from "../container";
 
 export default function Speakers() {
   return (
-    <>
+    <div className="w-full bg-[#F3FAF5] py-20">
       <Container>
         <div className="font-medium">
           <h3 className="text-xl text-[#55B76F] uppercase">
@@ -22,6 +22,6 @@ export default function Speakers() {
           </div>
         </div>
       </Container>
-    </>
+    </div>
   );
 }
