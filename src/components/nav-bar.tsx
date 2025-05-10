@@ -62,7 +62,7 @@ const NavBar = () => {
           ))}
           <Button
             size={"sm"}
-            className="hidden lg:block uppercase font-normal !px-5 text-sm ml-4"
+            className="hidden lg:block uppercase font-normal !px-5 text-sm ml-4 py-3 !h-fit"
           >
             <a
               href="https://forms.gle/hhuLVupnm2F1AGa96"

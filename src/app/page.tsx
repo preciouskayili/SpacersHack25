@@ -1,5 +1,6 @@
 import Container from "@/components/container";
 import EventHighlights from "@/components/Index/EventHighlights";
+import ThemeAndActivities from "@/components/Index/ThemeAndActivities";
 import NavBar from "@/components/nav-bar";
 import { Button } from "@/components/ui/button";
 import Ticket from "@/components/ui/ticket";
@@ -67,6 +68,7 @@ export default function Home() {
         <Ticket />
       </Container>
       <EventHighlights />
+      <ThemeAndActivities />
     </>
   );
 }
