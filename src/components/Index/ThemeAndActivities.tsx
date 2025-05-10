@@ -138,7 +138,7 @@ export default function ThemeAndActivities() {
 
           <div className="flex flex-col space-y-28">
             {items.map((item, index) => (
-              <div className="flex" key={index}>
+              <div className="flex flex-col" key={index}>
                 <div className="flex items-end w-full justify-between">
                   <div className="">
                     {item.icon}
@@ -151,9 +151,10 @@ export default function ThemeAndActivities() {
                   <p className="max-w-96 w-full text-white">
                     Our conference covers a range of talks from the web to the
                     cloud to compilers (and so on) -- we're proud of the
-                    speakers we’ve put together!
+                    speakers we've put together!
                   </p>
                 </div>
+                <div className="w-full bg-white/20 mt-8 h-px" />
               </div>
             ))}
           </div>
