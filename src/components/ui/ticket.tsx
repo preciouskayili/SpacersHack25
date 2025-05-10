@@ -25,8 +25,8 @@ export default function Ticket() {
             </p>
           </div>
           <svg
-            width="500"
-            height="2"
+            width={500}
+            height={2}
             viewBox="0 0 500 2"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -34,11 +34,12 @@ export default function Ticket() {
             <path
               d="M0 1H500"
               stroke="white"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-dasharray="6 6"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeDasharray="6 6"
             />
           </svg>
+
           <div className="px-6 mt-6">
             <p className="text-white text-lg uppercase mb-2">
               Early bird ticket
@@ -47,7 +48,7 @@ export default function Ticket() {
           </div>
         </div>
 
-        <div className="px-6 flex flex-col w-full">
+        <div className="px-6 flex flex-col w-full text-sm">
           <p className="mb-2 text-lg text-[#DEDEF6]">
             What your ticket includes:
           </p>
