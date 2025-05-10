@@ -1,6 +1,7 @@
 import Container from "@/components/container";
 import EventHighlights from "@/components/Index/EventHighlights";
 import Schedule from "@/components/Index/Schedule";
+import Speakers from "@/components/Index/Speakers";
 import ThemeAndActivities from "@/components/Index/ThemeAndActivities";
 import NavBar from "@/components/nav-bar";
 import { Button } from "@/components/ui/button";
@@ -71,6 +72,7 @@ export default function Home() {
       <EventHighlights />
       <ThemeAndActivities />
       <Schedule />
+      <Speakers />
     </>
   );
 }

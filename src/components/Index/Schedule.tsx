@@ -36,7 +36,7 @@ export default function Schedule() {
           <h3 className="text-primary">2025 Event Schedule</h3>
         </div>
 
-        <div className="flex items-center gap-12">
+        <div className="flex items-center gap-x-12">
           <div className="">
             <h3>{"20th August, 2025"}</h3>
             <h3 className="text-primary text-2xl uppercase">
